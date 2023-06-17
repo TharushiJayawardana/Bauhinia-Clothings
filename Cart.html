@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>BAUHINIA Clothings | Cart</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="BAUHINIA">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+	<!-- font Awesome Cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+	 <!-- Font -->
+	<link rel="stylesheet" href="Assets/CSS/Font.css">
+
+	<!-- CSS File -->
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/General.css">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/Cart.css">
+
+	<!-- Light Slider CSS -->
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/lightslider.css">
+
+	<!-- Jquery -->
+	<script type = "text/javascript" src="Assets/JS/Jquery.js"></script>
+
+	<!-- Light Slider JS -->
+	<script type = "text/javascript" src="Assets/JS/lightslider.js"></script>
+	
+
+<body>
+
+
+<header>
+	<a href="Home.html" class="logo">
+        <img src="Assets/Images/Logo.gif">
+    </a>
+
+    <nav class="navbar">
+        <a href="Home.html"><i class="fa fa-home"></i> HOME </a>
+        <a href="Shop.html"><i class="fa fa-shopping-bag"></i> SHOP </a>
+        <a href="Deals.html"><i class="fa fa-bell"></i> DEALS </a>
+        <a href="About.html"><i class="fa fa-heart"></i> ABOUT </a>
+        <a href="ContactUs.html"><i class="fa fa-phone"></i> CONTACT US </a>
+    </nav>
+
+    <div class="icons">
+        <i class="fa fa-bars" id="menu_bars"></i>
+        <i class="fa fa-search" id="search-icon"></i>
+        <a href="#" class="fa fa-heart"></a>
+        <a href="Account.html" class="fas fa-user"></a>
+        <a href="#" class="fa fa-shopping-cart"></a>
+    </div>
+</header>	
+
+<!-- Search Form -->
+<form action="" id="search_form">
+	<input type="search" placeholder="Search" name="" id="search_box">
+	<label for="search_box" class="fas fa-search"></label>
+	<i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- Cart -->
+<div class="container">
+<h1>My Shopping Cart</h1>
+<div class="cart">
+	<table>
+		<tr>
+			<th>Product Details</th>
+			<th>Quantity</th>
+			<th>Sub Total</th>
+		</tr>
+		<tr>
+			<td>
+				<div class="cart-info">
+					<img src="Assets/Images/Product/Accessories/N_02PI.jpg">
+					<div class="item-info">
+						<p>Double Layered Butterfly Necklace</p>
+						<small>Price: Rs. 300 LKR </small>
+						    
+						<a href="#"><i class="fas fa-trash"> Remove Item </i></a>
+					</div>
+				</div>
+			</td>
+			<td class="quantity"><input type="number" value="1"></td>
+			<td class="sub-total">Rs. 300 LKR</td>
+		</tr>
+
+		<tr>
+			<td>
+				<div class="cart-info">
+					<img src="Assets/Images/Product/ClothWear/LS_CT_01RP.jpg">
+					<div class="item-info">
+						<p>Long Sleeve Gathered Crop Top</p>
+						<small>Price: Rs. 1350 LKR </small>
+						<div class="item-remove-btn">
+						   <a href="#"><i class="fas fa-trash"> Remove Item </i></a>
+				   	</div>
+					</div>
+				</div>
+			</td>
+			<td><input type="number" value="1"></td>
+			<td class="sub-total">Rs. 1350 LKR</td>
+		</tr>
+	</table>
+
+	<div class="total">
+		<table>
+			<tr>
+				<td>Total Price</td>
+				<td>Rs. 1650 LKR</td>
+			</tr>
+		</table>
+	</div>
+</div>
+</div>
+
+<!--<div class="container">
+<h1>My Shopping Cart</h1>
+<div class="cart">
+<div class="item-list">
+	<div class="item">
+		<img src="Assets/Images/Product/Accessories/N_02PI.jpg">
+		<div class="item-info">
+			<h3 class="item-name">Double Layered Butterfly Necklace</h3>
+			<h3 class="item-price">Rs. 300 LKR</h3>
+			<p class="item-quantity">Quantity: <input value="1" name=""></p>
+			<p class="item-remove">
+				<i class="fas fa-trash"></i>
+				<span class="remove">Remove Item</span>
+			</p>
+		</div>
+	</div>
+
+	<div class="item">
+		<img src="Assets/Images/Product/ClothWear/LS_CT_01RP.jpg">
+		<div class="item-info">
+			<h3 class="item-name">Long Sleeve Gathered Crop Top</h3>
+			<h3 class="item-price">Rs. 1350 LKR</h3>
+			<p class="item-quantity">Quantity: <input value="1" name=""></p>
+			<p class="item-remove">
+				<i class="fas fa-trash"></i>
+				<span class="remove">Remove Item</span>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="cart-total">
+	<p>
+		<span>Total Price: </span>
+		<span>Rs. 1650 LKR</span>
+	</p>
+	<p>
+		<span>Number Of Items</span>
+		<span>2</span>
+	</p>
+	<a href="#"> Proceed To Checkout</a>
+</div>
+</div>
+</div>-->
+
+	
+<!----------Footer------
+<footer class="footer-distributed">
+      <div class="footer-right">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+
+      <div class="footer-left">
+        <p class="footer-links">
+          <a href="Home.html">HOME</a>
+          <a href="Shop.html">SHOP</a>
+          <a href="Deals.html">DEALS</a>
+          <a href="About.html">ABOUT</a>
+          <a href="ContactUs.html">CONTACT US</a>
+          <a></a>
+        </p>
+        <div class="store-details">
+        	<img src="Assets/Images/Logo4.png">
+        <h2>
+						BAUHINIA Clothings | A Moment Of Spark
+				</h2>
+        	
+        </div>
+        <hr>
+        <h6>Copyright 2021 - BAUHINIA Clothings | All Right Reserved | Designed By THARA</h6>
+      </div>
+</footer>-->
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Custom Javascript File -->
+<script src="Assets/JS/customJS.js"></script>
+<script type = "text/javascript" src="Assets/JS/script.js"></script>
+
+</body>
+</html>
+

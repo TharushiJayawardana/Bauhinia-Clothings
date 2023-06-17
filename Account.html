@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>BAUHINIA Clothings | Account</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="BAUHINIA">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+	<!-- font Awesome Cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+	 <!-- Font -->
+	<link rel="stylesheet" href="Assets/CSS/Font.css">
+
+	<!-- CSS File -->
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/General.css">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/Account.css">
+
+	<!-- Light Slider CSS -->
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/lightslider.css">
+
+	<!-- Jquery -->
+	<script type = "text/javascript" src="Assets/JS/Jquery.js"></script>
+
+	<!-- Light Slider JS -->
+	<script type = "text/javascript" src="Assets/JS/lightslider.js"></script>
+	
+
+<body>
+
+
+<header>
+	<a href="Home.html" class="logo">
+        <img src="Assets/Images/Logo.gif">
+    </a>
+
+    <nav class="navbar">
+        <a href="Home.html"><i class="fa fa-home"></i> HOME </a>
+        <a href="Shop.html"><i class="fa fa-shopping-bag"></i> SHOP </a>
+        <a href="Deals.html"><i class="fa fa-bell"></i> DEALS </a>
+        <a href="About.html"><i class="fa fa-heart"></i> ABOUT </a>
+        <a href="ContactUs.html"><i class="fa fa-phone"></i> CONTACT US </a>
+    </nav>
+
+    <div class="icons">
+        <i class="fa fa-bars" id="menu_bars" onclick=""></i>
+        <i class="fa fa-search" id="search-icon"></i>
+        <a href="Account.html" class="fas fa-user"></a>
+        <a href="Cart.html" class="fa fa-shopping-cart"></a>
+    </div>
+</header>	
+
+<!-- Search Form -->
+<form action="" id="search_form">
+	<input type="search" placeholder="Search" name="" id="search_box">
+	<label for="search_box" class="fas fa-search"></label>
+	<i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- Sign Up & Sign In -->
+<div class="container">
+	<div class="card">
+		<div class="inner-box" id="card">
+			<div class="card-front" style="background-image: url(Assets/Images/L1.jpg)">
+				<h2>SIGN IN</h2>
+				<form>
+					<input type="text" class="input-box" class="fas fa-user" placeholder="Username" required>
+					<input type="password" class="input-box" placeholder="Password" required>
+					<input type="checkbox"> <span> Remeber Me</span>
+					<button type="submit" class="submit-btn">Sign In</button>
+				</form>
+				<div class="social">
+				<h5> Or, Sign In With Social Platforms</h5>
+				<a href="#"><i class="fab fa-google"></i></a>
+		    <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+		    </div>
+		    <button type="button" class="btn" onclick="openSignUp()">I'am New Member</button>
+				<a href="">Forget Password</a>
+			</div>
+			<div class="card-back" style="background-image: url(Assets/Images/L2.jpg)">
+				<h2>SIGN UP</h2>
+				<form>
+					<input type="text" class="input-box" placeholder="Username" required>
+					<input type="email" class="input-box" placeholder="E-mail Address" required>
+					<input type="password" class="input-box" placeholder="Password" required>
+					<input type="checkbox"> <span> Remeber Me</span>
+					<button type="submit" class="submit-btn">Sign Up</button>
+				</form>
+				<div class="social">
+				<h5> Or, Sign Up With Social Platforms</h5>
+				<a href="#"><i class="fab fa-google"></i></a>
+		    <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+		    </div>
+		    <button type="button" class="btn" onclick="openSignIn()">I've An Account</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!----------Footer----->
+<footer class="footer-distributed">
+      <div class="footer-right">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div> 
+
+      <div class="footer-left">
+        <p class="footer-links">
+          <a href="Home.html">HOME</a>
+          <a href="Shop.html">SHOP</a>
+          <a href="Deals.html">DEALS</a>
+          <a href="About.html">ABOUT</a>
+          <a href="ContactUs.html">CONTACT US</a>
+          <a></a>
+        </p>
+        <div class="store-details">
+        	<img src="Assets/Images/Logo4.png">
+        <h2>
+						BAUHINIA Clothings | A Moment Of Spark
+				</h2>
+        	
+        </div>
+        <hr>
+        <h6>Copyright 2021 - BAUHINIA Clothings | All Right Reserved | Designed By THARA</h6>
+      </div>
+</footer>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Custom Javascript File -->
+<script src="Assets/JS/customJS.js"></script>
+<script type = "text/javascript" src="Assets/JS/script.js"></script>
+
+</body>
+</html>
